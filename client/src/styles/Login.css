@@ -1,0 +1,40 @@
+.login-container{
+    display: grid;
+     grid-template-rows: 2fr 5fr 2fr;  
+      height: 90vh; 
+      }
+
+.main{
+ margin: 15px;
+}
+
+
+.errMsg{
+ 
+ border:1px solid rgba(88, 74, 74, 0.027);
+ text-align: center;
+ background-color: #ffdce0;
+ color:#86181d;
+ border: 1px solid #703e31;
+ border-radius:5px; 
+ width: 250px;
+ padding: 10px;
+ margin: 0 auto;
+ 
+}
+
+.header{
+display: grid;
+grid-template-rows: 2fr 1fr;
+}
+.image{
+   text-align: center;
+}
+.reg-link{
+   float: right;
+   
+}
+.reg-link a{
+   float: right;
+   padding: 0 5px;
+}

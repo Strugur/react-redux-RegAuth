@@ -1,0 +1,35 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "nodemon server/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "bcrypt": "^3.0.3",
+    "body-parser": "^1.18.3",
+    "config": "^3.0.1",
+    "connect-mongo": "^2.0.3",
+    "connect-redis": "^3.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.1.12",
+    "mongoose": "^5.4.5",
+    "nodemon": "^1.18.9",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "redux-devtools": "^3.5.0"
+  }
+}
